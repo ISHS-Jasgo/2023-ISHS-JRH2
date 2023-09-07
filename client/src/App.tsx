@@ -14,8 +14,6 @@ import Allergy from "./routes/Allergy/Allergy";
 import AlResult from "./routes/Allergy/AlResult";
 
 function App() {
-  <Route path={`${process.env.PUBLIC_URL}/`} element={<Home />} />;
-
   return (
     <Router>
       <Routes>
