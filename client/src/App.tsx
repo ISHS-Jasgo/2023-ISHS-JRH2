@@ -27,6 +27,7 @@ function App() {
         <Route path="/restaurant/result" element={<ReResult />} />
         <Route path="/recycle" element={<Recycle />} />
         <Route path="/recycle/result" element={<Rcresult />} />
+        <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/help" element={<Help />} />
         <Route path="/allergy" element={<Allergy />} />
